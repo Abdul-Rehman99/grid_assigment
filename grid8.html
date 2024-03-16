@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Picker</title>
+</head>
+<style>
+    body{
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;;
+        background-color:#1c1c1c;
+    }
+    h1{
+        font-size: 2.5em;
+        color: #cbcaca;
+        text-align: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        width: 80%;
+        height: 110vh;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+     .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        font-weight: 800;
+     }
+    .box1{
+       background-color:#8D3DAF; 
+    }.box2{
+       background-color:#E07C24; 
+    }.box3{
+       background-color:#758283; 
+    }.box4{
+       background-color:#FF6666; 
+    }.box5{
+       background-color:#03C6C7; 
+    }.box6{
+       background-color:#CAD5E2; 
+    }.box7{
+       background-color:#35BDD0; 
+    }.box8{
+       background-color:#E03B8B; 
+    }
+</style>
+<body>
+    <h1>Feeling Fancy</h1>
+    <div class="container">
+        <div class="box box1">#8D3DAF</div>
+        <div class="box box2">#E07C24</div>
+        <div class="box box3">#758283</div>
+        <div class="box box4">#FF6666</div>
+        <div class="box box5">#03C6C7</div>
+        <div class="box box6">#CAD5E2</div>
+        <div class="box box7">#35BDD0</div>
+        <div class="box box8">#E03B8B</div>
+    </div>
+</body>
+</html>
